@@ -43,6 +43,9 @@ const mainTheme: ThemeConfig = {
     Form: {
       labelColor: "rgba(255,255,255,0.88)",
     },
+    Spin: {
+      colorPrimary: "#232323",
+  },
   },
 };
 
