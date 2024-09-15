@@ -53,7 +53,7 @@ const items: MenuItem[] = [
 ];
 
 const Sidebar = ({ collapsed, setCollapsed }: TSidebarType) => {
-  const [current, setCurrent] = useState("1");
+  const [current, setCurrent] = useState("apply-management");
 
   const onClick: MenuProps["onClick"] = (e) => {
     console.log("click ", e);
@@ -72,8 +72,7 @@ const Sidebar = ({ collapsed, setCollapsed }: TSidebarType) => {
         <div className="demo-logo-vertical pb-4 pt-20"></div>
         <Menu
           onClick={onClick}
-         
-          defaultOpenKeys={["sub1"]}
+          defaultOpenKeys={["apply-management"]}
           selectedKeys={[current]}
           mode="inline"
           items={items}
