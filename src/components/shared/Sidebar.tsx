@@ -72,7 +72,7 @@ const Sidebar = ({ collapsed, setCollapsed }: TSidebarType) => {
         <div className="demo-logo-vertical pb-4 pt-20"></div>
         <Menu
           onClick={onClick}
-          style={{ width: 256 }}
+         
           defaultOpenKeys={["sub1"]}
           selectedKeys={[current]}
           mode="inline"
