@@ -16,11 +16,9 @@ const EditProfileForm = () => {
             colorBgContainer: "transparent",
             activeBorderColor: "#243A40",
             hoverBorderColor: "#46A39D",
-
             colorText: "white",
           },
           Form: {
-            fontFamily: "var(--font-kumbh-sans)",
             labelColor: "white",
           },
         },

@@ -22,7 +22,6 @@ const ChangePasswordForm = () => {
             colorText: "white",
           },
           Form: {
-            fontFamily: "var(--font-kumbh-sans)",
             labelColor: "white",
           },
         },

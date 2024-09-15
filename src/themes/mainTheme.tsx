@@ -46,6 +46,9 @@ const mainTheme: ThemeConfig = {
     Spin: {
       colorPrimary: "#232323",
   },
+  Input: {
+    colorTextPlaceholder: "rgb(192, 199, 202)",
+  },
   },
 };
 
