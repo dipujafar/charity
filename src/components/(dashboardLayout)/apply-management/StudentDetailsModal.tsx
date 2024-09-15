@@ -132,7 +132,7 @@ const StudentDetailsModal = ({ open, setOpen }: TPropsType) => {
         {/* English Language Proficiency: */}
 
         <div className="font-medium ">
-          <h4 className="text-xl font-medium">Current Qualifications:</h4>
+          <h4 className="text-xl font-medium">English Language Proficiency::</h4>
           <header className="grid grid-cols-4 gap-7 justify-between mt-3">
             <h1 className=" flex justify-center border-r-2 border-gray-600">
               English Test taken
@@ -153,7 +153,7 @@ const StudentDetailsModal = ({ open, setOpen }: TPropsType) => {
             <div className="border-r-2 mr-4 pr-3 border-black">
             <div className="flex justify-between mb-2 gap-5">
               <h4>Test:</h4>
-              <p className="font-medium">ILTS</p>
+              <p className="font-medium">ILETS</p>
             </div>
             <div className="flex justify-between gap-5">
               <h4>Date:</h4>
